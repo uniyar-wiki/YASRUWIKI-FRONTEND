@@ -1,0 +1,20 @@
+.header_logo {
+    width: 50px;
+}
+
+.navbar-brand {
+    max-width: 50px;
+    /* Ограничьте максимальную ширину логотипа */
+    height: auto;
+    /* Сохраните пропорции логотипа */
+}
+
+.nav-link {
+    transition: color 0.2s ease-in-out;
+    /* Плавный переход цвета */
+}
+
+.nav-link:hover {
+    color: #f0ad4e;
+    /* Цвет при наведении */
+}
