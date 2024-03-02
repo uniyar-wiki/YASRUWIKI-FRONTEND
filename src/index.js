@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import UserProfile from './UserProfile';
-import YSUMap from './MapComponent.js';
-import AboutProject from './about.js';
+import App from './TeacherPage/App';
+import UserProfile from './Profile/UserProfile';
+import YSUMap from './MapComponent/MapComponent.js';
+import AboutProject from './about/about.js';
 import RainbowText from './main.js'
 import reportWebVitals from './reportWebVitals';
-import LoginPage from './LoginPage';
+import LoginPage from './login/LoginPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
